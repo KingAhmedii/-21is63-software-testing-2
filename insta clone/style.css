@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 975px;
+    padding: 10px 20px;
+}
+
+.instagram-text-logo img {
+    height: 29px;
+}
+
+.sub-section {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.sub-section i {
+    margin-right: 10px;
+}
+
+.sub-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile-img img {
+    height: 22px;
+    border-radius: 50%;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+}
+
+.post-section {
+    width: 100%;
+    max-width: 614px;
+}
+
+.story-section {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px 0;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: white;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.story-image img {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 2px solid #d62976;
+    padding: 3px;
+}
+
+.post-main {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+}
+
+.post-header, .post-footer, .post-description {
+    padding: 10px;
+}
+
+.post-left-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-image img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-username {
+    font-weight: bold;
+}
+
+.one-day {
+    color: #8e8e8e;
+}
+
+.post-main-image img {
+    width: 100%;
+}
+
+.post-footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.post-footer-left i {
+    margin-right: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.post-footer-left i.liked {
+    color: red;
+}
+
+.post-footer-left i.shared {
+    color: #3897f0;
+}
+
+.post-description .post-liked, .post-description .title, .post-description .comments {
+    margin: 5px 0;
+}
+
+.title span {
+    font-weight: bold;
+}
+
+.comment-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.comment-input {
+    flex-grow: 1;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.comment-submit {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.comments-section p {
+    margin: 5px 0;
+}
